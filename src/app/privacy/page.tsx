@@ -5,7 +5,7 @@ export default function PrivacyPage() {
         <h1 className="text-4xl font-bold font-headline mb-8">Privacy Policy</h1>
         <div className="prose prose-lg max-w-none text-foreground/80 space-y-6">
           <p>
-            Your privacy is important to us. It is FlightConnect's policy to respect your privacy regarding any information we may collect from you across our website, and other sites we own and operate.
+            Your privacy is important to us. It is Airlines Ticket's policy to respect your privacy regarding any information we may collect from you across our website, airlinesticket.site, and other sites we own and operate.
           </p>
           <h2 className="text-2xl font-bold font-headline">1. Information We Collect</h2>
           <p>

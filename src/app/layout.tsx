@@ -6,7 +6,7 @@ import { Toaster } from "@/components/ui/toaster"
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'FlightConnect | Your Personal Flight Assistant',
+  title: 'Airlines Ticket | Your Personal Flight Assistant',
   description: 'Book, change, or cancel flights with a simple phone call. Our expert agents are available 24/7 to help you with all your travel needs. Call (844) 578-3079 now!',
 };
 

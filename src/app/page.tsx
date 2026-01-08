@@ -107,7 +107,7 @@ export default function Home() {
       <section className="py-16 md:py-24 bg-card">
         <div className="container mx-auto px-4">
            <div className="text-center max-w-2xl mx-auto mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold font-headline">Why Choose FlightConnect?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold font-headline">Why Choose Airlines Ticket?</h2>
             <p className="text-lg text-muted-foreground mt-4">
               We provide a superior, personalized booking experience.
             </p>
