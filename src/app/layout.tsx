@@ -6,8 +6,8 @@ import { Toaster } from "@/components/ui/toaster"
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Airlines Ticket | Your Personal Flight Assistant',
-  description: 'Book, change, or cancel flights with a simple phone call. Our expert agents are available 24/7 to help you with all your travel needs. Call (844) 578-1549 now!',
+  title: 'Book Your Flight Today | Airlines Ticket',
+  description: 'Book your flight today with Airlines Ticket. We offer fast and easy flight booking, changes, and cancellations over the phone. Get the best deals on airline tickets and speak with a live travel agent now.',
 };
 
 export default function RootLayout({
@@ -18,6 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
