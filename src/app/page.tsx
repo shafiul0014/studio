@@ -45,7 +45,7 @@ export default function Home() {
 
   return (
     <>
-      <section className="relative h-[60vh] md:h-[70vh] flex items-center justify-center text-center text-white">
+      <section className="relative h-[70vh] md:h-[80vh] flex items-center justify-center text-center text-white">
         {heroImage && (
            <Image
             src={heroImage.imageUrl}
@@ -56,19 +56,25 @@ export default function Home() {
             data-ai-hint={heroImage.imageHint}
           />
         )}
-        <div className="absolute inset-0 bg-black/50" />
-        <div className="relative z-10 p-4 max-w-3xl">
+        <div className="absolute inset-0 bg-black/60" />
+        <div className="relative z-10 p-4 max-w-4xl">
           <h1 className="text-4xl md:text-6xl font-headline font-bold mb-4 tracking-tight shadow-md">
-            Your Personal Flight Assistant
+            Book Your Flight Today
           </h1>
-          <p className="text-lg md:text-2xl mb-8 font-light">
-            Book, Change, or Cancel Flights with a Simple Phone Call.
+          <p className="text-lg md:text-xl mb-3 font-light max-w-2xl mx-auto">
+            Skip the website hassle. Call now and book your airline tickets quickly with a live travel agent.
+          </p>
+          <p className="text-lg md:text-xl mb-8 font-light max-w-2xl mx-auto">
+             Need to book, change, or cancel a flight? Call today for fast airline reservations by phone.
           </p>
           <a href="tel:8445783079">
             <Button size="lg" variant="default" className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg md:text-xl px-8 py-6">
               Call (844) 578-3079 Now
             </Button>
           </a>
+          <p className="text-sm md:text-base mt-6 text-white/90">
+            Available 24/7 • Speak with a travel expert in under 30 seconds
+          </p>
         </div>
       </section>
       
