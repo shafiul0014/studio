@@ -5,7 +5,7 @@ import { cn } from '@/lib/utils';
 export function CallNowButton() {
   return (
     <a
-      href="tel:8445781549"
+      href="tel:+18445781549"
       className={cn(
         'fixed bottom-4 right-4 z-50 group',
         'md:bottom-8 md:right-8'
