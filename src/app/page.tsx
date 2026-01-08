@@ -17,12 +17,7 @@ export default function Home() {
       icon: <Replace className="w-10 h-10 text-primary" />,
       title: 'Changes & Modifications',
       description: 'Need to change your travel dates or destination? Our team is here to assist with any modifications.',
-    },
-    {
-      icon: <XCircle className="w-10 h-10 text-primary" />,
-      title: 'Cancellations & Refunds',
-      description: 'Hassle-free cancellations and support with refund processes. We make it simple and straightforward.',
-    },
+    }
   ];
 
   const benefits = [
@@ -86,7 +81,7 @@ export default function Home() {
               Our travel specialists are ready to handle all your flight-related needs.
             </p>
           </div>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8">
             {services.map((service, index) => (
               <Card key={index} className="text-center shadow-md hover:shadow-lg transition-shadow duration-300">
                 <CardHeader className="items-center">
