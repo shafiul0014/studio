@@ -10,9 +10,9 @@ export function Header() {
           <Logo className="w-8 h-8 text-primary" />
           Airlines Ticket
         </Link>
-        <a href="tel:+18445781549" className="hidden md:flex items-center gap-2 text-lg font-semibold text-foreground hover:text-primary transition-colors">
+        <a href="tel:+18448170287" className="hidden md:flex items-center gap-2 text-lg font-semibold text-foreground hover:text-primary transition-colors">
           <Phone className="w-5 h-5 text-primary" />
-          (844) 578-1549
+          (844) 817-0287
         </a>
       </div>
     </header>

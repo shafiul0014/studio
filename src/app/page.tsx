@@ -67,9 +67,9 @@ export default function Home() {
           <p className="text-lg md:text-xl mb-8 font-light max-w-2xl mx-auto">
              Need to book, change, or cancel a flight? Call today for fast airline reservations by phone.
           </p>
-          <a href="tel:+18445781549">
+          <a href="tel:+18448170287">
             <Button size="lg" variant="default" className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg md:text-xl px-8 py-6">
-              Call (844) 578-1549 Now
+              Call (844) 817-0287 Now
             </Button>
           </a>
           <p className="text-sm md:text-base mt-6 text-white/90">
@@ -130,9 +130,9 @@ export default function Home() {
           <p className="text-lg max-w-2xl mx-auto mb-8">
             Let our expert agents handle your travel plans. Get in touch today!
           </p>
-          <a href="tel:+18445781549">
+          <a href="tel:+18448170287">
             <Button size="lg" variant="secondary" className="bg-accent text-accent-foreground hover:bg-accent/90 text-lg md:text-xl px-8 py-6">
-              Call (844) 578-1549
+              Call (844) 817-0287
             </Button>
           </a>
         </div>
