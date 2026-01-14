@@ -5,12 +5,12 @@ import { cn } from '@/lib/utils';
 export function CallNowButton() {
   return (
     <a
-      href="tel:+18448170287"
+      href="tel:+18448332205"
       className={cn(
         'fixed bottom-4 right-4 z-50 group',
         'md:bottom-8 md:right-8'
       )}
-      aria-label="Call Now: (844) 817-0287"
+      aria-label="Call Now: (844) 833-2205"
     >
       <Button
         size="lg"
@@ -25,7 +25,7 @@ export function CallNowButton() {
         <Phone className="h-7 w-7 md:h-6 md:w-6" />
         <div className="hidden md:flex flex-col items-start -ml-1">
             <span className="text-xs leading-none">Tap to Call</span>
-            <span className="text-lg font-bold leading-tight">(844) 817-0287</span>
+            <span className="text-lg font-bold leading-tight">(844) 833-2205</span>
         </div>
       </Button>
     </a>
